@@ -25,6 +25,12 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+#bootstrap
+gem 'bootstrap', '~> 4.0.0'
+
+#jquery
+gem 'jquery-rails'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
@@ -45,6 +51,9 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
-
+#Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable
+#inspection for all stack frames.
+gem "better_errors"
+gem "binding_of_caller"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
